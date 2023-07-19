@@ -318,4 +318,11 @@ footer {
 }
 .footer-link:hover{
   background-color: #20202050;
+}   
+
+.open{
+  visibility: visible;
+}
+.close{
+  display:none;
 }

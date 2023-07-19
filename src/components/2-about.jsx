@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useContext} from "react";
 import Typewriter from "typewriter-effect";
+import { Context } from "../context/context";
+
 
 function About() {
+  const {aboutOpen} =useContext(Context)
   return (
-    <article className="about-container flex-col open">
+    <article className={`${aboutOpen} about-container flex-col`}>
       <div id="profile-pic"></div>
       <h2 className="text-shadow-crt heading">
         <Typewriter
