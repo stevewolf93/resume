@@ -252,12 +252,12 @@ body::before {
 
 /* main */
 
-main{
+main {
   width: 100vw;
-  height: 80vh;
+  height: clamp(20vh ,87vh,90vh);
   backdrop-filter: blur(2px);
 }
-.about-container{
+.about-container {
   width: 90%;
   height: 90%;
   color: #efefef;
@@ -268,23 +268,20 @@ main{
   border: 1px solid #efefef50;
   border-radius: 2px;
 }
-p{
+p {
   font-size: clamp(12px, 1.5vw, 2rem);
   overflow: auto;
-
 }
-h2{
+h2 {
   font-size: clamp(2rem, 4vw, 4rem);
   font-family: "Common Pixel", sans-serif;
   overflow: auto;
-
-  
 }
-.text-shadow-crt{
+.text-shadow-crt {
   animation: textShadow 1.6s infinite;
 }
 
-#profile-pic{
+#profile-pic {
   width: 150px;
   height: 150px;
   background-image: url(./img/1669965796303.jpeg);
@@ -293,7 +290,32 @@ h2{
   border-radius: 100px;
   box-shadow: 2px 1px 20px rgb(0, 0, 0);
 }
-#profile-pic:hover{
+#profile-pic:hover {
   box-shadow: 2px 1px 50px rgb(255, 255, 255);
-  transition: 5s;
+  transition: 5s ease-out;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: clamp(50px, 5vh, 200px);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #efefef;
+  backdrop-filter: blur(10px);
+  gap: 5rem;
+}
+
+.footer-link {
+  padding: 2px 5px 4px 4px;
+  width: 10%;
+  height: 100%;
+  min-width: fit-content;
+  text-align: center;
+  font-size: clamp(2rem, 4vw, 2rem);
+  color: #efefef;
+
+}
+.footer-link:hover{
+  background-color: #20202050;
 }
