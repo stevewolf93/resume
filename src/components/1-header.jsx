@@ -1,7 +1,7 @@
 import React, {useId} from 'react'
 
 function Header() {
-    const navItems = ["About", "Resume", "Portfolio", "Contact"]
+    const navItems = ["About", "Skills", "Contact"]
     const navId = useId()
   return (
     <header>

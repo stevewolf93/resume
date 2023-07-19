@@ -291,8 +291,9 @@ h2{
   background-position: center;
   background-size: cover;
   border-radius: 100px;
-  box-shadow: 2px 1px 50px rgb(66, 66, 66);
+  box-shadow: 2px 1px 20px rgb(0, 0, 0);
 }
 #profile-pic:hover{
-  box-shadow: 2px 1px 50px rgb(204, 58, 58);
+  box-shadow: 2px 1px 50px rgb(255, 255, 255);
+  transition: 5s;
 }
