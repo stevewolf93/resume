@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.82689637.css",
+    "main.js": "/resume/static/js/main.bbd4cda8.js",
+    "static/media/bernd-dittrich-E1eKa8PJHTU-unsplash.jpg": "/resume/static/media/bernd-dittrich-E1eKa8PJHTU-unsplash.33627b41bb42ff4c43b4.jpg",
+    "static/media/1669965796303.jpeg": "/resume/static/media/1669965796303.6cf1cc941f5a79b977e5.jpeg",
+    "index.html": "/resume/index.html",
+    "main.82689637.css.map": "/resume/static/css/main.82689637.css.map",
+    "main.bbd4cda8.js.map": "/resume/static/js/main.bbd4cda8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82689637.css",
+    "static/js/main.bbd4cda8.js"
+  ]
+}
