@@ -1,10 +1,9 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Typewriter from "typewriter-effect";
 import { Context } from "../context/context";
 
-
 function About() {
-  const {aboutOpen} =useContext(Context)
+  const { aboutOpen } = useContext(Context);
   return (
     <article className={`${aboutOpen} about-container flex-col`}>
       <div id="profile-pic"></div>
@@ -28,8 +27,8 @@ function About() {
         <strong>React projects</strong>, where I am passionately dedicated to
         enriching my understanding and mastery of this cutting-edge framework. I
         am eager to explore opportunities that enable me to leverage my{" "}
-        expertise and contribute meaningfully to the success of
-        esteemed projects.
+        expertise and contribute meaningfully to the success of esteemed
+        projects.
       </p>
     </article>
   );

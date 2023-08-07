@@ -254,7 +254,7 @@ body::before {
 
 main {
   width: 100vw;
-  height: clamp(20vh ,87vh,90vh);
+  height: clamp(20vh, 87vh, 90vh);
   backdrop-filter: blur(2px);
 }
 .about-container {
@@ -295,6 +295,66 @@ h2 {
   transition: 5s ease-out;
 }
 
+.contact-container {
+  color: #efefef;
+  font-size: 2rem;
+  font-family: "Common Pixel", sans-serif;
+}
+
+.skill-container {
+  width: 65%;
+  color: #efefef;
+}
+
+.prog-container {
+  width: 100%; 
+  background-color: #000000cb;
+  border-left:1px solid #111; 
+  border-top:1px solid #111; 
+  border-right:1px solid #333; 
+  border-bottom:1px solid #333;  
+  margin: 2% 0;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px; 
+  height: 100%;
+  padding-bottom: 5px; 
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding-right: 5px;
+  background-color: rgba(255, 0, 80, 0.3);
+  box-shadow: 0px 0px 10px 1px rgba(255, 0, 81, 0.527);
+  justify-content: space-between;
+  font-family: "Common Pixel", sans-serif;
+}
+
+.html {
+  width: 95%;
+} 
+.css {
+  width: 90%;
+} 
+.js {
+  width: 88%;
+} 
+.react {
+  width: 95%;
+} 
+.python {
+  width: 75%;
+} 
+.docker {
+  width: 50%;
+}
+.mysql {
+  width: 50%;
+} 
+.git {
+  width: 80%;
+} 
+
 footer {
   position: fixed;
   bottom: 0;
@@ -314,15 +374,14 @@ footer {
   text-align: center;
   font-size: clamp(2rem, 4vw, 2rem);
   color: #efefef;
-
 }
-.footer-link:hover{
+.footer-link:hover {
   background-color: #20202050;
-}   
+}
 
-.open{
+.open {
   visibility: visible;
 }
-.close{
-  display:none;
+.close {
+  display: none;
 }
